@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+.pagamentos{
+	background-color: #ee82ee78;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 5vw;
+	font-family: 'Poppins', sans-serif;
+		
+	
+}
+
+.imagem__pagamentos{
+	width: 30%;
+}
+
+
+.input__contato{
+	border-color: lightblue;
+	border-top-left-radius: 5px ;
+	border-bottom-left-radius: 5px ;
+	padding: 2px;
+	
+}
+
+/* .botao{
+	border-top-right-radius: 5px ;
+	border-bottom-right-radius: 5px ;
+	background-color: lightblue;
+	cursor: pointer;
+}
+
+.input__contato .botao{
+	outline: 0;
+	border: 1px solid lightblue;
+	box-sizing: border-box;
+	font-size: 16px;
+	display: block;
+} */
+
+
+.pagamentos__lista{
+	display: flex;
+    justify-content: center;
+}
+
+.contato{
+	text-align: start;
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.container {
+	padding-right: 6%;
+	padding-left: 6%;
+}
+
+
+.banner{
+	width: 100%;
+}
+
+
+/* .container-loja{
+    grid-area:container-loja;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+} */
+.container-loja{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-lista{
+    /* background: #F0F8FF; */
+    width:20% ;
+    height: 120vh;
+}
+
+.lista-categorias{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.categorias{
+    margin: 0.7rem ;
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+.itens-display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:70%;
+}
+
+
+.containerItem{
+    border: black;
+    border-radius: 10px;
+    background-color: #F0F8FF;
+    display: flex;
+    flex-direction: column;
+    min-height:400px;
+    padding: 1rem;
+    width: 25%;
+    position: relative;
+    margin: 0.5rem;
+}
+
+.containerItem p{
+    margin-top: 1rem;
+    text-align: center;
+}
+.itemImagem{
+    height: 300px;
+    width: 100%;
+}
+
+.containerItem h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+.containerItem a{
+    background:lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    bottom: 20px;
+    color:white;
+    position: absolute;
+    height: 30px;
+    padding-top: 10px;
+    width: 85%;
+    text-align: center;
+}
+.botao{
+    transition: 0.3s;
+}
+
+.botao:hover{
+    font-size: 1.2rem;
+}
