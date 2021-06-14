@@ -114,3 +114,6 @@ form input[type = "submit"]:hover{
 footer div {
     margin: 1rem 0  ;
 }
+a{
+	text-decoration: none;
+}

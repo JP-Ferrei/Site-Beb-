@@ -7,14 +7,14 @@
     <title>login</title>
     <!-- <link rel="stylesheet" href="./css/reset.css"> -->
     
-    <link rel="stylesheet" href="./css/login-formulario.css">
+    <link rel="stylesheet" href="../css/login-formulario.css">
 
 </head>
 <body>
   
     <main class="container">
         <h2>Login</h2>
-        <form action="" method="get">
+        <form action="../controller/login.php" method="POST">
 
             <div class="input-field">
                 <input type="text" name="username" id="username" placeholder="Usuário">
@@ -22,7 +22,7 @@
             </div>
 
             <div class="input-field">
-                <input type="text" name="username" id="username" placeholder="Senha">
+                <input type="password" name="password" id="password" placeholder="Senha">
                 <div class="underline"></div>
             </div>
 
@@ -33,7 +33,8 @@
             <div>
 
                 <span>Não possui conta?</span>
-                <a href="/cadastro.html">Cadastre-se</a>
+                <a href="cadastro.html">Cadastre-se</a>
+                <a href="../index.html">Home</a>
             </div>
         </footer>
     </main>
